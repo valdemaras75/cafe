@@ -1,0 +1,300 @@
+@import"./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@900&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* header start */
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 15px;
+    background: #4a2b33;
+}
+
+.menu-list{
+    display: flex;
+    gap: 0 20px;
+    padding-top: 3px;
+    
+}
+
+.menu-link{
+    font-size: 15px;
+    line-height: 24px;
+    color: #d27487;
+}
+
+.logo2{
+    padding-left: 30px;
+}
+
+.social-img{
+    padding-right: 17px;
+}
+
+.social-img1{
+    padding-top: 2px;
+}
+
+.social-img3{
+    padding-right: 0px;
+}
+
+/* header end */
+
+/* main start */
+
+.main{
+    background: #4a2b33;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+/* main end */
+
+/* about start */
+
+.about-content{
+    text-align: center;
+    padding: 150px 0;
+}
+
+.about-title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 22px;
+    color: #222;
+    padding-bottom: 5px;
+}
+
+.about-blok-text{
+    margin: 0 240px 0 240px;
+}
+.about-text{
+    font-size: 32px;
+    line-height: 45px;
+    color: #222;
+}
+
+/* about end */
+
+/* menu start */
+
+.menu-block{
+    display: flex;
+    justify-content: space-between;
+    background: #E9E9E3;
+    padding:  120px 50px;
+    gap: 0 50px
+}
+
+.menu-title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6f6f64;
+    padding-bottom: 20px;
+}
+
+.menu-text{
+    font-size: 32px;
+    line-height: 45px;
+    color: #6f6f64;
+    max-width: 550px;
+    padding-bottom: 100px;
+}
+
+.menu-link1{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    color: #6f6f64;
+    border: 2px solid #6F6F64;
+    border-radius: 0px;
+    margin-bottom: 12px;
+    padding: 20px 0;
+}
+
+.menu-link-active{
+    color: #fff;
+    background: #6F6F64;
+
+}
+
+/* schedule start */
+
+.schedule-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 120px 75px 135px 175px;
+    background: #aa9e54;
+}
+
+.locatin-title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.street{
+    font-size: 25px;
+    line-height: 36px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.hours-title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.hours-text{
+    font-size: 25px;
+    line-height: 36px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.hours-text2{
+   padding-top: 35px;
+}
+
+.day{
+    width: 340px;
+}
+
+.day-title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.day-text{
+    font-size: 25px;
+    line-height: 36px;
+    color: #fff;
+}
+
+/* schedule end */
+
+/* cafe-galery start */
+
+.cafe-galery-content{
+    display: flex;
+   justify-content: space-between;
+   padding: 150px 56px 120px 56px ;
+   gap: 0 40px;
+}
+
+.galery-img1{
+    padding-bottom: 40px;
+}
+
+.galery-img3{
+    min-width: 664px;
+    max-height: 540px;
+}
+
+/* cafe-galery end */
+
+/* award start */
+
+.award-content{
+    display: flex;
+    justify-content: space-between;
+    background: #4a2b33;
+    padding: 121px 109px 133px 56px;
+    gap: 0 260px;
+}
+
+.award-title{
+    font-size: 47px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    color: #d27487;
+    max-width: 430px;
+}
+
+.award-text{
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #d27487;
+    margin-top: 30px;
+}
+
+/* award end */
+
+/* footer start */
+
+.footer-content{
+    padding-top: 50px;
+    padding-bottom: 39px;
+}
+
+.footer-menu-list{
+    display: flex; 
+    justify-content: center;  
+    gap: 0 30px;
+    padding-bottom: 7px;
+}
+
+.footer-menu-link{
+    font-size: 15px;
+    line-height: 22px;
+    color: #1f1f1f;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-text{
+    font-size: 13px;
+    line-height: 20px;
+    color: #696969;
+    margin-top: 20px;
+}
+
+.footer-text1{
+    padding-left: 30px;
+}
+
+
